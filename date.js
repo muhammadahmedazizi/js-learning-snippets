@@ -32,7 +32,7 @@ console.log("The current month is " + monthNames[date.getMonth()]);
 
 // Difference between two dates
 var today = new Date();
-var lastDate = new Date("November 30 2020 10:45:45");
+var lastDate = new Date("September 30 2020 10:45:45");
 
 //lastdate.setDate(2020,11,22);
 console.log(lastDate); 
