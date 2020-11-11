@@ -18,7 +18,7 @@ console.log('getDay()')	;	console.log(date.getDay())
 // Month name in English
 const monthNames = ["January", "February", "March", "April", "May", "June",
   "July", "August", "September", "October", "November", "December"
-]; // created an array
+]; // created an array for month names. 
 
 
 console.log("The current month is " + monthNames[date.getMonth()]);
