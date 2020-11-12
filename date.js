@@ -29,7 +29,6 @@ const monthNames = ["January", "February", "March", "April", "May", "June",
 console.log("The current month is " + monthNames[date.getMonth()]);
 
 
-
 // Difference between two dates
 var today = new Date();
 var lastDate = new Date("September 30 2020 10:45:45");
@@ -41,4 +40,3 @@ var timeDiff = lastDate.getTime() - today.getTime();
 var days = timeDiff / (1000 * 60 * 60 * 24);
 
 console.log(Math.floor(days)); 
-
